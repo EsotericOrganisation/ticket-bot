@@ -1,13 +1,13 @@
 {
-	"name": "slime-bot",
+	"name": "ticket-bot",
 	"version": "1.0.0",
-	"description": "",
+	"description": "A bot that implements a ticketing system.",
 	"main": "src/bot.js",
 	"scripts": {
 		"run": "node ."
 	},
 	"keywords": [],
-	"author": "Cæt",
+	"author": "Slqmy",
 	"license": "ISC",
 	"dependencies": {
 		"@discordjs/rest": "^1.1.0",
