@@ -20,7 +20,7 @@ module.exports = {
               .setTitle(`❌ Error`)
               .setColor(`Red`)
               .setDescription(
-                `> An unexpected error occured while executing this command.`
+                `> An unexpected error occurred while executing this command.`
               ),
           ],
           ephemeral: true,
@@ -37,7 +37,7 @@ module.exports = {
               .setTitle(`❌ Error`)
               .setColor(`Red`)
               .setDescription(
-                `> An unexpected error occured while executing this button interaction.`
+                `> An unexpected error occurred while executing this button interaction.`
               ),
           ],
           ephemeral: true,
@@ -61,7 +61,7 @@ module.exports = {
               .setTitle(`❌ Error`)
               .setColor(`Red`)
               .setDescription(
-                `> An unexpected error occured while executing this select menu interaction.`
+                `> An unexpected error occurred while executing this select menu interaction.`
               ),
           ],
           ephemeral: true,
@@ -85,7 +85,7 @@ module.exports = {
               .setTitle(`❌ Error`)
               .setColor(`Red`)
               .setDescription(
-                `> An unexpected error occured while executing this modal interaction.`
+                `> An unexpected error occurred while executing this modal interaction.`
               ),
           ],
           ephemeral: true,
@@ -109,7 +109,7 @@ module.exports = {
               .setTitle(`❌ Error`)
               .setColor(`Red`)
               .setDescription(
-                `> An unexpected error occured while executing this context menu interaction.`
+                `> An unexpected error occurred while executing this context menu interaction.`
               ),
           ],
           ephemeral: true,
@@ -135,7 +135,7 @@ module.exports = {
               .setTitle(`❌ Error`)
               .setColor(`Red`)
               .setDescription(
-                `> An unexpected error occured while executing this autocomplete command.`
+                `> An unexpected error occurred while executing this autocomplete command.`
               ),
           ],
           ephemeral: true,
