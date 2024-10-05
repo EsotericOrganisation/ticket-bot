@@ -7,7 +7,7 @@
 		"run": "node ."
 	},
 	"keywords": [],
-	"author": "Slqmy",
+	"author": "Esoteric Enderman",
 	"license": "ISC",
 	"dependencies": {
 		"@discordjs/rest": "^1.1.0",
