@@ -1,5 +1,4 @@
 const { InteractionType, EmbedBuilder } = require("discord.js");
-const fs = require("fs");
 
 module.exports = {
   name: "interactionCreate",
