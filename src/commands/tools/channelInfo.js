@@ -2,7 +2,7 @@ const { SlashCommandBuilder } = require("discord.js");
 
 module.exports = {
   data: new SlashCommandBuilder()
-    .setName("channelinfo")
+    .setName("channelInfo")
     .setDescription("Test Channel Information Command")
     .addChannelOption((option) =>
       option.setName("channel").setDescription("Channel information channel")
