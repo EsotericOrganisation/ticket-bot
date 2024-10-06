@@ -30,6 +30,7 @@ module.exports = {
       const { buttons } = client;
       const { customId } = interaction;
       const button = buttons.get(customId);
+
       if (!button) {
         await interaction.reply({
           embeds: [
@@ -54,6 +55,7 @@ module.exports = {
       const { selectMenus } = client;
       const { customId } = interaction;
       const menu = selectMenus.get(customId);
+
       if (!menu) {
         await interaction.reply({
           embeds: [
@@ -78,6 +80,7 @@ module.exports = {
       const { modals } = client;
       const { customId } = interaction;
       const modal = modals.get(customId);
+
       if (!modal) {
         await interaction.reply({
           embeds: [
@@ -102,6 +105,7 @@ module.exports = {
       const { commands } = client;
       const { commandName } = interaction;
       const contextCommand = commands.get(commandName);
+
       if (!contextCommand) {
         await interaction.reply({
           embeds: [
@@ -128,6 +132,7 @@ module.exports = {
       const { commands } = client;
       const { commandName } = interaction;
       const command = commands.get(commandName);
+
       if (!command) {
         await interaction.reply({
           embeds: [
