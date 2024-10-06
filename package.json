@@ -6,7 +6,6 @@
 	"scripts": {
 		"run": "node ."
 	},
-	"keywords": [],
 	"author": "Esoteric Organisation",
 	"contributors": ["Esoteric Enderman", "rolyPolyVole"],
 	"license": "MIT",
