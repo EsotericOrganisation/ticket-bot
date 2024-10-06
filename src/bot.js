@@ -1,6 +1,6 @@
 require("dotenv").config();
 
-const { token } = process.env;
+const { TOKEN } = process.env;
 const { Client, Collection } = require("discord.js");
 const {readdirSync} = require("fs")
 
@@ -20,7 +20,7 @@ for (const folder of functionFolders) {
     require(`./functions/${folder}/${file}`)(client);
 }
 
-client.login(token)
+client.login(TOKEN)
 
 client.handleEvents();
 client.handleCommands();

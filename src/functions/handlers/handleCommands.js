@@ -28,11 +28,11 @@ module.exports = (client) => {
       }
     }
 
-    const rest = new REST({ version: "9" }).setToken(process.env.token);
+    const rest = new REST({ version: "9" }).setToken(process.env.TOKEN);
     try {
       console.log("Started refreshing application (/) commands. ");
 
-      await rest.put(Routes.applicationCommands(process.env.clientId), {
+      await rest.put(Routes.applicationCommands(process.env.CLIENT_ID), {
         body: client.commandArray,
       });
 
