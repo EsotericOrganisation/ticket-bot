@@ -7,8 +7,8 @@
 		"run": "node ."
 	},
 	"keywords": [],
-	"author": "Esoteric Enderman",
-	"contributors": ["rolyPolyVole"],
+	"author": "rolyPolyVole",
+	"contributors": ["Esoteric Enderman"],
 	"license": "MIT",
 	"dependencies": {
 		"@discordjs/rest": "^1.1.0",
